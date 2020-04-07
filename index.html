@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ezequiel - Portfolio</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ce40503256.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#welcome" class="links">Welcome</a></li>
+          <li><a href="#services" class="links">Services</a></li>
+          <li><a href="#projects" class="links">Projects</a></li>
+          <li><a href="#contact" class="links">Contact me!</a></li>
+        </ul>
+        <div class="burger">
+          <div class="burger__line"></div>
+          <div class="burger__line"></div>
+          <div class="burger__line"></div>
+        </div>
+      </nav>
+
+      <section id="welcome">
+        <h1>Hi, i'm Eze!</h1>
+        <p>I'm a Web developer 👨‍💻</p>
+      </section>
+    </header>
+
+    <main>
+      <section id="services">
+        <h2>What can i do? 🛠</h2>
+
+        <article class="services__card">
+          <h3>Web Layout</h3>
+          <figure>
+            <img src="img/weblayout.jpg" alt="web layout" />
+          </figure>
+          <p>
+            I will take your mockup/PSD, and a make it real by code, using
+            Html5, Css3 and Javascript
+          </p>
+        </article>
+
+        <article class="services__card">
+          <h3>Responsive Design</h3>
+          <figure>
+            <img src="img/responsive.png" alt="Responsive web design" />
+          </figure>
+          <p>
+            Making your web responsive means it will respond to any screen
+            device: Pc, Tablet, Smartphone, etc...
+          </p>
+        </article>
+
+        <article class="services__card">
+          <h3>Interactive Web Apps</h3>
+          <figure>
+            <img src="img/pwa2.png" alt="progessive web app" />
+          </figure>
+          <p>
+            Taking advantage of Javascript and React, i can make web
+            applications consuming different API's
+          </p>
+        </article>
+      </section>
+
+      <section id="projects">
+        <h2>My Projects</h2>
+
+        <a
+          href="https://pokedex-react-eze.herokuapp.com/"
+          class="projects__card"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3>Pokedex - React</h3>
+          <figure>
+            <img src="img/projects/pkd-react.png" alt="Pokedex React" />
+          </figure>
+          <ul class="languages">
+            <li><i class="fab fa-html5"></i> Html</li>
+            <li><i class="fab fa-css3-alt"></i> Css</li>
+            <li><i class="fab fa-js"></i> Javascript</li>
+            <li><i class="fab fa-react"></i> React JS</li>
+          </ul>
+          <!-- <h4>Goal</h4> -->
+        </a>
+        <a
+          href="https://mustaine16.github.io/Pokedex/"
+          class="projects__card"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3>Pokedex - Vainilla JS</h3>
+          <figure>
+            <img src="img/projects/pkd-js.png" alt="Pokedex Javascript" />
+          </figure>
+          <ul class="languages">
+            <li><i class="fab fa-html5"></i> Html</li>
+            <li><i class="fab fa-css3-alt"></i> Css</li>
+            <li><i class="fab fa-js"></i> Javascript</li>
+          </ul>
+        </a>
+        <a
+          href="https://buyitnowpls.000webhostapp.com/"
+          class="projects__card"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3>Buy It! - Ecommerce</h3>
+          <figure>
+            <img src="img/projects/ecommerce.png" alt="ecommerce laravel" />
+          </figure>
+          <ul class="languages">
+            <li><i class="fab fa-laravel"></i> Laravel</li>
+            <li><i class="fas fa-database"></i> MySQL</li>
+            <li><i class="fab fa-html5"></i> Html</li>
+            <li><i class="fab fa-css3-alt"></i> Css</li>
+            <li><i class="fab fa-js"></i> Javascript</li>
+          </ul>
+        </a>
+        <a
+          href="https://mustaine16.github.io/Metallica/"
+          class="projects__card"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3>Metallica Homepage</h3>
+          <figure><img src="img/projects/metallica.jpg" alt="" /></figure>
+          <ul class="languages">
+            <li><i class="fab fa-html5"></i> Html</li>
+            <li><i class="fab fa-css3-alt"></i> Css</li>
+            <li><i class="fab fa-js"></i> Javascript</li>
+          </ul>
+        </a>
+      </section>
+
+      <section id="contact">
+        <h2>Let's talk!</h2>
+
+        <article class="links">
+          <a href="https://github.com/Mustaine16">
+            <i class="fab fa-github fa-10x"></i>
+          </a>
+          <h3>GitHub</h3>
+          <h4></h4>
+        </article>
+
+        <article class="links">
+          <a href="https://www.linkedin.com/in/ezequiel-dominguez/">
+            <i class="fab fa-linkedin fa-10x"></i>
+          </a>
+          <h3>Linkedin</h3>
+          <h4></h4>
+        </article>
+
+        <article class="links">
+          <a href="mailto:ezequieldominguezcp11@gmail.com">
+            <i class="fas fa-envelope-square fa-10x"></i>
+          </a>
+          <h3>Email</h3>
+          <h4></h4>
+        </article>
+
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
